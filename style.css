@@ -1,0 +1,144 @@
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.hd {
+	color: #33d6ff;
+}
+
+.smallHD {
+	font-size: 40px;
+}
+
+.skills {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.projects {
+	margin-top: 10px;
+}
+
+.well-sm {
+	border-radius: 25px;
+	margin-top: 40px;
+}
+
+.well-lg {
+	border-radius: 25px;
+}
+
+.transbox {
+	margin: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+
+.transbox h3 {
+	margin: 2%;
+	font-weight: bold;
+	color: #000000;
+}
+
+body {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: monospace;
+	background-image: url(https://images.unsplash.com/photo-1449024540548-94f5d5a59230?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dec4b59ca06926527007bd98670f2800);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.blogImage {
+	float: right;
+	margin-right: 25px;
+}
+.projectsImage {
+	float: right;
+	margin-right: 1.5px;
+}
+.skillsImage {
+	margin-left: 25px;
+
+
+
+
+
+.h2hr {
+	width: 200px;
+	margin-top: 10px;
+}
+
+h2 {
+	color: #004d99;
+	font-family: monospace;
+}
+
+
+.fa {
+	color: black;
+}
+
+p {
+	font-family: 'Montserrat';
+	color: black;	
+}
+
+.fa-github {
+	color: white;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 25px;
+}
+
+.fa-codepen {
+	color: white;
+	margin-top: 15px;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.fa-envelope-o {
+	color: white;
+	margin-top: 15px;
+	font-size: 25px;
+	margin-right: 20px;
+}
+
+footer {
+	margin-top: 50%;
+	overflow: hidden;
+}
+
+footer p {
+	font-size: 0.75em;
+	color: white;
+}
+
+
+/**************** Media Queries **************/
+/* 500px and below - mobile phone size */
+@media(max-width: 500px) {
+	.icons {
+		float: right;
+		margin-right: 10px;
+	}
+	.projects {
+		margin-bottom: -40px;
+	}
